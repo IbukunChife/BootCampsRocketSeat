@@ -1,0 +1,86 @@
+Tecnicas de Trabalho de programadores:
+20 min de estudo 
+5 min de descanço
+
+Montar no Bootcamps uma base de conhecimento
+
+Para isso temos que começar a criar projeto pessoas, colocar no github  também no Linkedin
+precisamente no Linkedin colocar uma foto e uma beve descrição do que está fazendo para
+ter a chance de ser recrutado como programador.
+
+colocar sempre uma primeira versão dos projetos no ar não esperar que sejá completo
+
+Para ter uma inspiração de layout usar o aplicaivo Dribbble também pode ser usado o  printerest
+
+###############################################################################################
+
+Instalar o Git 
+
+Adicionar atalho no arquivo .gitconfig
+[alias]
+  ci = commit
+  co = checkout
+  cm = checkout master
+  cb = checkout -b
+  st = status -sb
+  sf = show --name-only
+  lg = log --pretty=format:'%Cred%h%Creset %C(bold)%cr%Creset %Cgreen<%an>%Creset %s' --max-count=30
+  incoming = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' ..@{u})
+  outgoing = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' @{u}..)
+  unstage = reset HEAD --
+  undo = checkout --
+  rollback = reset --soft HEAD~1
+
+
+Pode se configurar também o arquivo .gitignore_global para ignorar certos arquivo na hora de subir no github
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional npm cache directory
+.npm
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Next.js build output
+.next
+out
+
+
+###############################################################################################33
+Instalar no navegador do google chrome o JSON Viewer : ele mostrar os retornos de Api tudo formatado
+
+instalar o React Dev Tools : ela mostrar a estrutura dos compomentes react na hora de inspecionar
+
+Instalar Octotree ajudar a navegar no repositorio no github
+
+Podermos usar o Whimsical que é um site que ajuda a criar fluxo da aplicação, pensar como as coisas 
+vão funcionar,
+podermos também desenhar o wimframe da nossa applicação.
+
+Baixar o Devdocs que baixar offline as documentações a respeito de uma linguagem que estamos usando.
+
+Instalar também a Insomia que uma ferramenta que ajuda a testar as nossas Api
+
+####################################################################################################
